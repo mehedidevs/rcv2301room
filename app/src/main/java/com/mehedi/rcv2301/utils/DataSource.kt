@@ -4,7 +4,7 @@ import com.mehedi.rcv2301.models.Love
 
 class DataSource {
 
-    val countDataList: MutableList<Int> = mutableListOf(1, 2, 33, 2)
+ 
 
     val loveDataList: MutableList<Love> = mutableListOf(
         Love(
