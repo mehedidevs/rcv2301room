@@ -13,6 +13,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 class DBModule {
 
+    //it is providing Love database
     @Provides
     @Singleton
     fun providesLoveDB(@ApplicationContext context: Context): LoveDatabase {
